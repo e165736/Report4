@@ -8,7 +8,8 @@ import static org.junit.Assert.*;
  */
 public class EnemyTest {
     @org.junit.Test
-    public void attack() throws Exception { int heroHP = 10;
+    public void attack() throws Exception {
+        int heroHP = 10;
         Hero hero = new Hero("テスト勇者", heroHP, 5);
         Enemy enemy = new Enemy("テストスライム", 6, 3);
         enemy.dead = true;
