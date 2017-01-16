@@ -1,13 +1,12 @@
 package jp.ac.uryukyu.ie.e165736;
 
-/**
- * Created by e165736 on 2017/1/16.
- */
 public class Enemy {
     String name;
     int hitPoint;
     int attack;
     boolean dead;
+    public boolean setisDead;
+    public boolean Dead;
 
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
